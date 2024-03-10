@@ -3,8 +3,7 @@
 using namespace std;
 int n;
 vector<int> a;
-int main(void)
-{
+int main(void) {
     ios::sync_with_stdio(false);
     cin.tie(0);
     cin >> n;

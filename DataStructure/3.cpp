@@ -3,8 +3,7 @@
 using namespace std;
 int n;
 int counts = 0;
-bool prime(const int &p)
-{
+bool prime(const int &p) {
     if (p <= 3)
         return true;
     if (!(p % 2) || !(p % 3))
@@ -14,8 +13,7 @@ bool prime(const int &p)
             return false;
     return true;
 }
-int main(void)
-{
+int main(void) {
     ios::sync_with_stdio(false);
     cin.tie(0);
     cin >> n;

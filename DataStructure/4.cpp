@@ -2,8 +2,7 @@
 #define endl "\n"
 using namespace std;
 int n;
-int main(void)
-{
+int main(void) {
     ios::sync_with_stdio();
     cin.tie(0);
     cin >> n;
